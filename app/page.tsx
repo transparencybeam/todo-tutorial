@@ -1,10 +1,10 @@
 import { TodoList } from "@/components/todo-list"
-import { AuroraText } from "@/components/ui/aurora-text"
+import { GradientText } from "@/components/gradient-text"
 
 export default function Page() {
   const title = (
     <h1 className="text-3xl font-bold tracking-tight">
-      ✨ <AuroraText>Todo</AuroraText>
+      ✨ <GradientText>Todo</GradientText>
     </h1>
   )
 
